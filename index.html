@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.wfkEDhAvYR3XsfciSqbPOAHaHa?pid=ImgDet&rs=1"  type="image/icon type">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   
+    <title>Shopping Card</title>
+</head>
+<body>
+    <!-- <main class="main"> -->
+
+<h1>Shopping Card</h1>
+    <table id="tableau">
+        <tr>
+            <th>Add To</th>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+        <tr class="elt">
+            <td>
+                <input type="checkbox" class="check">
+            </td>
+            <td>
+                <div class="image">
+                    <img src="/chaussures.jpg" alt="chaussures filles" width="120px" height="80px" >
+                </div>
+               
+            </td>
+            <td>
+                <p>Baby Girl Basket</p>
+            </td>
+            <td class="unitPrice">
+                100 
+            </td>
+            <td class="plusMinus">
+                <button class="plus"><i class="fas fa-plus"></i></button>
+                <p class="quantity">0</p>
+                <button class="minus"><i class="fas fa-minus"></i></button>
+            </td>
+            <td class="totalUnitPrice">
+                0
+            </td>
+            <td>
+                <button class="heart"><i class="far fa-heart"></i> </button>
+                <button class="trash"><i class="far fa-trash-alt"></i></button>
+            </td>
+        </tr>
+        <tr class="elt">
+            <td>
+                <input type="checkbox" class="check">
+            </td>
+            <td>
+                <div class="image">
+                    <img src="/robe.jpg" alt="robe fille" width="120px" height="80px" >
+                </div>
+               
+            </td>
+            <td>
+                <p>Girl Dress</p>
+            </td>
+            <td  class="unitPrice">
+                200
+            </td>
+            <td class="plusMinus">
+                <button class="plus"><i class="fas fa-plus"></i></button>
+                <p class="quantity">0</p>
+                <button class="minus"><i class="fas fa-minus"></i></button>
+            </td>
+            <td class="totalUnitPrice">
+                0
+            </td>
+            <td>
+                <button class="heart"><i class="far fa-heart"></i></button>
+                <button class="trash"><i class="far fa-trash-alt"></i></button>
+            </td>
+        </tr>
+        <tr class="elt">
+            <td>
+                <input type="checkbox" class="check">
+            </td>
+            <td>
+                <div class="image">
+                    <img src="/bandeau.jpg" alt="bandeau fille" width="120px" height="80px" >
+                </div>
+               
+            </td>
+            <td>
+                <p>Girl headband</p>
+            </td>
+            <td  class="unitPrice">
+                50 
+            </td>
+            <td class="plusMinus">
+                <button class="plus"><i class="fas fa-plus"></i></button>
+                <p class="quantity">0</p>
+                <button class="minus"><i class="fas fa-minus"></i></button>
+            </td>
+            <td class="totalUnitPrice">
+                0
+            </td>
+            <td>
+                <button class="heart"><i class="far fa-heart"></i></button>
+                <button class="trash"><i class="far fa-trash-alt"></i></button>
+            </td>
+        </tr>
+        <tr id="last-cell">
+            <td>
+                
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="lastcheck">Total</button></td>
+            
+            <td id="totalPrice">0</td>
+            <td>
+                
+                    
+                
+                
+            </td>
+        </tr>
+        
+        
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
